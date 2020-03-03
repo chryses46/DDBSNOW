@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1583267094361
+Build-Jdk: 13.0.2
+Built-By: danielfrank
+Bundle-ManifestVersion: 2
+Bundle-Name: DDBSNOW General Client Code
+Bundle-SymbolicName: com.mycompany.ddbsnow
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.mycompany.ddbsnow;version="1.0.0";uses:="com.mycompa
+ ny.ddbsnow.js"
+Import-Package: com.mycompany.ddbsnow.js;version="[1.0,2)",net.java.html
+ ;version="[1.7,2)",net.java.html.boot;version="[1.7,2)",org.netbeans.ht
+ ml.json.spi;version="[1.7,2)"
+Tool: Bnd-2.1.0.20130426-122213
